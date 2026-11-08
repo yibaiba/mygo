@@ -4,7 +4,7 @@
 
 **Desktop apps in Go, with native UI or a web frontend.**
 
-This repository is a **fork** of [egoist/mygo](https://github.com/egoist/mygo) v0.7.4 with a **linux/loong64** GTK backend. Module path stays `github.com/egoist/mygo`. See [linux-loong64.md](linux-loong64.md).
+This repository is a **fork** of [egoist/mygo](https://github.com/egoist/mygo) v0.7.4 for **Linux** (amd64, arm64, and loong64), including Kylin / UOS / Loongnix. Module path stays `github.com/egoist/mygo`. See [linux-loong64.md](linux-loong64.md).
 
 Sponsored by:
 
