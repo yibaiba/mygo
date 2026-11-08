@@ -1,4 +1,4 @@
-//go:build (darwin || linux) && (amd64 || arm64 || loong64)
+//go:build (darwin || linux) && (amd64 || arm64)
 
 package sqlite
 

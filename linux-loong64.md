@@ -1,14 +1,14 @@
 # Linux GTK (Kylin / UOS / Loongnix)
 
-Fork of [egoist/mygo](https://github.com/egoist/mygo) **v0.7.4**. The module path stays `github.com/egoist/mygo`.
+Fork of [egoist/mygo](https://github.com/egoist/mygo) **v0.8.3**. The module path stays `github.com/egoist/mygo`.
 
 ```
-replace github.com/egoist/mygo => github.com/yibaiba/mygo v0.7.4-loong64.1
+replace github.com/egoist/mygo => github.com/yibaiba/mygo v0.8.3-loong64.1
 ```
 
 Works on **linux/amd64, linux/arm64, and linux/loong64** — Kylin, UOS, Loongnix, and other GTK 3 desktops. It is not Loongson-only. Upstream already had GTK on amd64 and arm64; this tree adds **loong64** and Linux GPU/font fixes that apply on every arch.
 
-## What changed vs v0.7.4
+## What changed vs upstream v0.8.3
 
 - Linux GTK 3 backend build tags include `loong64` (`linux && (amd64 || arm64 || loong64)`).
 - Backend is pure Go + [purego](https://github.com/ebitengine/purego) (`Dlopen` GTK 3 / GDK / GLib / Pango / Cairo / libepoxy). No `#cgo`.
